@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login Page</title>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family:  sans-serif;
+        }
+
+        body{
+            background-color: white;
+        }
+
+        h1{
+            height: 15px;
+            margin-top: 35px;
+            text-align: center;
+            cursor: pointer;
+            margin-bottom: 80px;
+        }
+
+        #logo{
+            height: 60px;
+           border: 0;
+        }
+
+        .whole{
+            align-content: center;
+            
+        }
+
+        .first-box{
+            display: block;
+            width:20%;
+            
+           
+            margin-left: auto;
+            margin-right: auto;
+            border: 2px solid rgb(208, 206, 206);
+            margin-top: 20px;
+            height: 400px;
+
+
+            
+
+            
+        }
+
+        input{
+            width: 100%;
+            height: 30px;
+            background-color:rgb(238, 233, 230);
+            border: 2px solid rgb(208, 206, 206);
+            text-align:justify;
+            
+        }
+        
+        .data{
+            margin-top: 35px;
+            width: 90%;
+            margin-left: 20px;
+            margin-right: 20px;
+            
+            
+        }
+
+        .password{
+            margin-top: 5px;
+            width: 90%;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        #log{
+            width: 90%;
+            background-color: cornflowerblue;
+            color: #eee;
+            font-weight: bold;
+            border: 2px solid cornflowerblue;
+            border-radius: 5px;
+            margin-left: 20px;
+            margin-right: 20px;
+            max-width: 100%;
+            margin-top: 5px;
+            height: 30px;
+
+        }
+
+        .or{
+            text-align: center;
+            color: grey;
+            margin-top: 15px;
+        }
+
+        #icon{
+            height: 20px;
+        }
+
+        .fb{
+            text-align: center;
+            margin-top: 25px;
+            cursor: pointer;
+            color: darkblue;
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        .forget{
+            text-align: center;
+            margin-top:20px ;
+            font-size: 12px;
+            color: darkblue;
+            
+        }
+
+       
+
+        .second-box{
+            display: block;
+            width:20%;
+            margin-left: auto;
+            margin-right: auto;
+            border: 2px solid rgb(208, 206, 206);
+            margin-top: 20px;
+            height: 70px;
+            text-align: center;
+            
+
+
+        }
+
+        .box{
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .app{
+            text-align: center;
+            margin-top: 15px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: black;
+
+        }
+
+        .alpha{
+            text-align: center;
+            
+            display: block;
+            justify-content: center;
+
+
+        }
+
+        .beta{
+            display: inline-block;
+            cursor: pointer;
+           
+            
+        }
+
+        
+
+
+    </style>
+</head>
+<body>
+<div class="whole">
+    <div class="first-box">
+    <h1 > <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjtjBw4xwF01ZdKL1cmnYZD3vdavlQPOWA7w&s" target = "_blank" alt=""  id="logo" style="border: 0;" >
+    </h1>
+
+    <div class="data">
+    <label for="data"></label>
+    <input type="text,email,number" placeholder="Phone number,username,or email">
+     </div>
+
+     <div class="password">
+    <label for="password"></label>
+    <input type="password" placeholder="password">
+   </div>
+
+   <button id="log">Log in</button>
+
+   <div class="or">
+    <label for="or">   _____________  OR _____________ </label>
+   </div>
+
+   <div class="fb">
+    <img id=  "icon"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStiwkmeAzRKv49JIwP1EmMP7aCasN2Toj70g&s" alt="">
+    <label for="fb" style="cursor: pointer;">Log in with Facebook </label>
+   </div>
+
+   <div class="forget">
+    <label for="forget" style="cursor: pointer;">Forget Password?</label>
+   </div>
+
+
+   </div>
+
+    <div class="second-box">
+        <div class="box"> Don't have an account?</div> 
+        <div style="font-weight: bold; color: cornflowerblue; cursor: pointer;" class="box"> Sign up</div>
+    </div>
+    
+    <div class="app">
+        <label for="app">Get the app</label>
+    </div>
+
+    <div class="alpha">
+        <div class="beta">
+            <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=ig_mid%3DDA233A1A-9FD5-42EF-B952-84212E737F0E%26utm_campaign%3DloginPage%26utm_content%3Dlo%26utm_source%3Dinstagramweb%26utm_medium%3Dbadge%26original_referrer%3Dhttps%3A%2F%2Fwww.google.com%2F"></a>
+            <img id="play" src= "https://png.pngtree.com/png-vector/20230817/ourmid/pngtree-google-play-app-icon-vector-png-image_9183316.png" alt="" style="height: 70px; ">
+        </div>
+
+        <div class="beta">
+            <img src="https://learn.microsoft.com/en-us/partner-center/media/marketplace-offers/promote-your-office-store-solution/ms-appsource.png" alt="" style="height: 40px; ">
+        </div>
+    </div>
+
+
+   
+
+</div> 
+</body>
+</html>
